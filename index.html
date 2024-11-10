@@ -14,7 +14,7 @@
 	<nav class="navbar navbar-expand-lg bg-black" data-bs-theme="dark">
 		<div class="container-fluid d-flex flex-column justify-content-center">
 			<a class="navbar-brand" href="#" id="logo">Street One <span class="store">Store</span></a>
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+			<button class="navbar-toggler me-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -41,40 +41,40 @@
 	</nav>
 
 	<header>
-		<div id="carouselExampleCaptions" class="carousel slide">
+		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-indicators">
-			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
 			<div class="carousel-inner">
-			  <div class="carousel-item active">
-				<img src="Imagens/camisa/fundo2.jpg" class="d-block w-100" alt="...">
+			  <div class="carousel-item active" data-bs-interval="7000">
+				<img src="img/camisa/fundo2.jpg" class="d-block w-100" alt="banner">
 				<div class="carousel-caption d-none d-md-block">
-				  <h5>First slide label</h5>
-				  <p>Some representative placeholder content for the first slide.</p>
-				</div>
+					<h5>Camiseta King Joy long. branco/rosa</h5>
+					<p>R$ 149,90</p>
+				  </div>
 			  </div>
-			  <div class="carousel-item">
-				<img src="Imagens/bermuda/fundo2.jpg" class="d-block w-100" alt="...">
+			  <div class="carousel-item" data-bs-interval="7000">
+				<img src="img/bermuda/fundo2.jpg" class="d-block w-100" alt="banner">
 				<div class="carousel-caption d-none d-md-block">
-				  <h5>Second slide label</h5>
-				  <p>Some representative placeholder content for the second slide.</p>
-				</div>
+					<h5>Bermuda Jeans Edwin Degradê</h5>
+					<p>R$ 169,90</p>
+				  </div>
 			  </div>
-			  <div class="carousel-item">
-				<img src="Imagens/calca/fundo2.jpg" class="d-block w-100" alt="...">
+			  <div class="carousel-item" data-bs-interval="7000">
+				<img src="img/calca/fundo2.jpg" class="d-block w-100" alt="banner">
 				<div class="carousel-caption d-none d-md-block">
-				  <h5>Third slide label</h5>
-				  <p>Some representative placeholder content for the third slide.</p>
-				</div>
+					<h5>Calça Jogger B.Strong Branca</h5>
+					<p>R$ 169,90</p>
+				  </div>
 			  </div>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
 			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
 			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Next</span>
 			</button>
@@ -83,7 +83,7 @@
 
 	<main class="container my-5">
 		<!--PRIMEIRA FILEIRA-->
-		<div class="row my-5">
+		<div class="row my-4">
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
@@ -105,8 +105,8 @@
 						<div class="card_roupa" id="card_02">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Blusa Bitton Strong Preto</h5>
+						  <p class="card-text">R$ 179,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -121,7 +121,7 @@
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Blusa Black West Cinza/Preto</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -137,7 +137,7 @@
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Calça Jogger B.Strong Branca</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -149,14 +149,14 @@
 			
 		</div>
 		<!--SEGUNDA FILEIRA-->
-		<div class="row my-5">
+		<div class="row my-4">
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
 						<div class="card_roupa" id="card_05">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Calça Jeans B.West lisa Degradê Azul Claro/Branco</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -171,7 +171,7 @@
 						<div class="card_roupa" id="card_06">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Calça Jogger B.Strong Preta</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -187,8 +187,8 @@
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Camiseta Bitton Strong long. azul/malha persa</h5>
+						  <p class="card-text">R$ 99,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -203,7 +203,7 @@
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Camisa Social Sport B.West cinza</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -215,14 +215,14 @@
 			
 		</div>
 		<!--TERCEIRA FILEIRA-->
-		<div class="row my-5">
+		<div class="row my-4">
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_01">
+						<div class="card_roupa" id="card_09">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Jaqueta Jeans Black West</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -234,11 +234,11 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_02">
+						<div class="card_roupa" id="card_10">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Blusa B.West C/Capuz Cinza/Amarelo</h5>
+						  <p class="card-text">R$ 159,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -249,11 +249,11 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_03">
+						<div class="card_roupa" id="card_11">
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Jaqueta Black West Azul/Branco</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -265,11 +265,11 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_04">
+						<div class="card_roupa" id="card_12">
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Jaqueta Black West Azul</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -281,14 +281,14 @@
 			
 		</div>
 		<!--QUARTA FILEIRA-->
-		<div class="row my-5">
+		<div class="row my-4">
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_01">
+						<div class="card_roupa" id="card_13">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Calças Jeans B.West Destoyer Det.Joelho</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -300,11 +300,11 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_02">
+						<div class="card_roupa" id="card_14">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Camiseta King Joy longline branca/borda preta</h5>
+						  <p class="card-text">R$ 149,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -315,12 +315,12 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_03">
+						<div class="card_roupa" id="card_15">
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Camiseta King Joy long. branco/rosa</h5>
+						  <p class="card-text">R$ 149,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -331,12 +331,12 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_04">
+						<div class="card_roupa" id="card_16">
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">>Bermuda Jeans B.West Black</h5>
+						  <p class="card-text">R$ 149,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -347,14 +347,14 @@
 			
 		</div>
 		<!--QUINTA FILEIRA-->
-		<div class="row my-5">
+		<div class="row my-4">
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_01">
+						<div class="card_roupa" id="card_17">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Bermuda Jeans Edwin</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -366,11 +366,11 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_02">
+						<div class="card_roupa" id="card_18">
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Camisa social B.West Branca</h5>
+						  <p class="card-text">R$ 149,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -381,12 +381,12 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_03">
+						<div class="card_roupa" id="card_19">
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
-						  <p class="card-text">R$ 169,90</p>
+						  <h5 class="card-title">Camisa manga comp. Xadrez B.West</h5>
+						  <p class="card-text">R$ 149,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
 						  <a href="#" class="btn btn-danger">Comprar</a>
@@ -397,11 +397,11 @@
 			<div class="col-6 col-md-3">
 				<div class="card-container">
 					<div class="card">
-						<div class="card_roupa" id="card_04">
+						<div class="card_roupa" id="card_20">
 
 						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Camisa Social Sport B.west</h5>
+						  <h5 class="card-title">Camiseta King Joy longline verm/preto</h5>
 						  <p class="card-text">R$ 169,90</p>
 						  <p class="card-text">Tamanhos: P/M/G/GG</p>
 						  
@@ -413,6 +413,68 @@
 			
 		</div>
 	</main>
+
+	<footer>
+		<div class="row">
+			<div class="col-12 pt-3">
+				<p>Fique conectado com a gente:</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-12 col-md-3">
+				<figure class="d-flex align-items-center">
+					<img src="img/icon/StreetIcon.jpeg" alt="Logo" class="logo">
+					<figcaption class="ms-2">Street One Store</figcaption>
+				</figure>
+				<p class="slogan">Qualidade é a nossa moda!</p>
+			</div>
+
+		    <div class="col-12 col-md-3">
+				<h5>
+					Produtos
+				</h5>
+				<ul>
+                    <li><a href="pages/camisas.html">Camisas</a></li>
+                    <li><a href="pages/blusas.html">Blusas</a></li>
+                    <li><a href="pages/calcas.html">Calças</a></li>
+                    <li><a href="pages/bermudas.html">Bermudas</a></li>
+                </ul>
+			</div>
+
+			<div class="col-12 col-md-3">
+				<h5>
+					Termos de Uso
+				</h5>
+				<a href="pages/termos.html">Leia os Termos</a>
+			</div>
+
+			<div class="col-12 col-md-3">
+				<h5 class="mb-3">
+                    Contato
+                </h5>
+				<figure class="d-flex">
+					<img src="img/icon/endereco.png" alt="ícone de endereço" class="icon">
+                    <figcaption class="ms-2">R. Genérica, 999. Bairro Genérico. Cidade-XX</figcaption>
+				</figure>
+				<figure class="d-flex">
+					<img src="img/icon/email.png" alt="ícone de email" class="icon">
+                    <figcaption class="ms-2">email@email.com</figcaption>
+				</figure>
+				<figure class="d-flex">
+					<img src="img/icon/whatsapp.png" alt="ícone do whatsapp" class="icon">
+                    <figcaption class="ms-2">(99) 99999-9999</figcaption>
+				</figure>
+			</div>
+
+		</div>
+
+		<div class="row mt-3">
+			<div class="col-12 d-flex justify-content-center">
+				<p>© 2021 Copyright: streetonestore.com.br</p>
+			</div>
+		</div>
+	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
