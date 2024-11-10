@@ -1,0 +1,64 @@
+:root{
+	--cor_branco: #fff;
+	--cor_vermelho: #ff0000;
+	--cor_preto: #000000;
+}
+
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+	background-color: var(--cor_preto);
+}
+
+#logo{
+	font-size: 2rem;
+}
+
+.store{
+	color: var(--cor_vermelho);
+}
+
+.nav-link{
+	color: var(--cor_branco);
+    transition: color 0.3s;
+}
+
+.nav-link:hover{
+    color: var(--cor_vermelho);
+	transition: color 0.3s;
+}
+
+.card_roupa{
+	width: 100%;
+	height: 20em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#card_01{
+    background-image: url(../Imagens/camisa/camisa1.jpeg);
+}
+
+#card_02{
+    background-image: url(../Imagens/bermuda/bermuda10.jpeg);
+}
+
+#card_03{
+    background-image: url(../Imagens/frio/frio13.jpeg);
+}
+
+#card_04{
+    background-image: url(../Imagens/calca/calca14.jpeg);
+}
+
+#card_05{
+	background-image: url(../Imagens/bermuda/bermuda11.jpeg);
+}
+
+#card_06{
+    background-image: url(../Imagens/frio/frio12.jpeg);
+}
+
