@@ -1,0 +1,194 @@
+:root{
+	--cor_branco: #fff;
+	--cor_vermelho: #ff0000;
+	--cor_preto: #000000;
+	--cor_cinza: #808080;
+	--cor_cinza-escuro: #444444;
+}
+
+*{
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+	background-color: var(--cor_preto);
+}
+
+#logo{
+	font-size: 2rem;
+}
+
+.store{
+	color: var(--cor_vermelho);
+}
+
+.nav-link{
+	color: var(--cor_branco);
+    transition: color 0.3s;
+}
+
+.nav-link:hover{
+    color: var(--cor_vermelho);
+	transition: color 0.3s;
+}
+
+.navbar-toggler-icon, .navbar-toggler{
+	background-color: var(--cor_cinza);
+	color: var(--cor_preto);
+}
+
+.card-container{
+	height: 40em;
+}
+
+.card{
+	height: 40em;
+	border-radius: 3px;
+}
+
+.card_roupa{
+	width: 100%;
+	height: 40em;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+	background-color: var(--cor_cinza-escuro);
+    color: var(--cor_branco);
+    padding: 1em 3em 0;
+}
+
+footer ul{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+	line-height: 2;
+}
+
+footer ul li a{
+	color: var(--cor_branco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer ul li a:hover{
+    color: var(--cor_cinza);
+    transition: color 0.3s;
+}
+
+footer div a{
+	color: var(--cor_branco);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer div a:hover{
+    color: var(--cor_cinza);
+    transition: color 0.3s;
+}
+
+.logo{
+	width: 80px;
+	height: 75px;
+}
+
+.slogan{
+	font-style: italic;
+}
+
+.icon{
+	width: 20px;
+    height: 20px;
+}
+
+/* PRIMEIRA FILEIRA */
+
+#card_01{
+    background-image: url(../img/bermuda/bermuda1.jpeg);
+}
+
+#card_02{
+    background-image: url(../img/bermuda/bermuda18.jpeg);
+}
+
+#card_03{
+    background-image: url(../img/bermuda/bermuda4.jpeg);
+}
+
+#card_04{
+    background-image: url(../img/bermuda/bermuda15.jpeg);
+}
+
+/* SEGUNDA FILEIRA */
+
+#card_05{
+	background-image: url(../img/bermuda/bermuda5.jpeg);
+}
+
+#card_06{
+    background-image: url(../img/bermuda/bermuda6.jpeg);
+}
+
+#card_07{
+    background-image: url(../img/bermuda/bermuda7.jpeg);
+}
+
+#card_08{
+    background-image: url(../img/bermuda/bermuda8.jpeg);
+}
+
+/* TERCEIRA FILEIRA */
+
+#card_09{
+    background-image: url(../img/bermuda/bermuda9.jpeg);
+}
+
+#card_10{
+    background-image: url(../img/bermuda/bermuda10.jpeg);
+}
+
+#card_11{
+    background-image: url(../img/bermuda/bermuda11.jpeg);
+}
+
+#card_12{
+    background-image: url(../img/bermuda/bermuda12.jpeg);
+}
+
+/* QUARTA FILEIRA */
+
+#card_13{
+    background-image: url(../img/bermuda/bermuda13.jpeg);
+}
+
+#card_14{
+    background-image: url(../img/bermuda/bermuda14.jpeg);
+}
+
+#card_15{
+    background-image: url(../img/bermuda/bermuda2.jpeg);
+}
+
+#card_16{
+    background-image: url(../img/bermuda/bermuda16.jpeg);
+}
+
+/* QUINTA FILEIRA */
+
+#card_17{
+    background-image: url(../img/bermuda/bermuda17.jpeg);
+}
+
+#card_18{
+    background-image: url(../img/bermuda/bermuda3.jpeg);
+}
+
+#card_19{
+    background-image: url(../img/bermuda/bermuda19.jpeg);
+}
+
+#card_20{
+    background-image: url(../img/bermuda/bermuda20.jpeg);
+}
